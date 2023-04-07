@@ -1,0 +1,81 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family: Helvetica;
+}
+
+#projetos {
+    background-color: rgb(6, 160, 180);
+}
+
+.centralizador-projetos {
+    padding-top: 93px;
+}
+
+.titulo-projeto {
+    text-align: center;
+    padding-bottom: 70px;
+    font-size: 45px;
+    font-family: Helvetica;
+}
+
+.github {
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    transition: ease-in-out 0.3s;
+    display: inline;
+}
+
+.repositorio {
+    margin: 0 auto;
+    padding-top: 35px;
+    padding-bottom: 93px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    gap: 35px;
+}
+
+.blank {
+    background-color: rgb(117, 171, 224);
+    height: 195px;
+    width: 310px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    overflow: hidden;
+    transition: ease-in-out 0.3s;
+}
+
+.blank div {
+    background-color: rgb(32, 48, 83);
+    width: 1000px;
+    text-align: center;
+    padding: 5% 0;
+    transform: rotate(-50deg);
+}
+
+.blank div p {
+    font-family: Helvetica;
+    font-size: 20px;
+    color: azure;
+}
+
+.blank:hover {
+    letter-spacing: 5px;
+}
+
+.projetos-itens {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 29.5px;
+    width: 100%;
+    justify-content: center;
+}

@@ -1,0 +1,84 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family: Helvetica;
+}
+
+.centralizador-hab {
+    max-width: 1000px;
+    margin: 0 auto;
+    height: 400px;
+}
+
+#habilidades {
+    background-color: rgb(71, 133, 143);
+}
+
+.habilidades-foto {
+    padding-top: 93px;
+}
+
+.titulo-hab {
+    text-align: center;
+    padding-bottom: 70px;
+    font-family: Helvetica;
+    font-size: 35px;
+    color: black;
+}
+
+.habilidades-disc {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 50px;
+    padding-bottom: 70px;
+}
+
+.disc-conteiner {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 37px;
+    max-width: 55%;
+}
+
+.hab-box {
+    height: 106px;
+    width: 106px;
+    background-color: rgb(132, 172, 212);
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    background-repeat: no-repeat;
+    background-position: center;
+    transition: ease 0.3s;
+}
+
+.hab-box:hover {
+    background-color: rgb(173, 219, 219);
+    transform: scale(1.05);
+}
+
+.hab-box .icone-habilidades {
+    transition: ease-in-out 0.3s;
+}
+
+.hab-box:hover .icone-habilidades {
+    opacity: 0;
+}
+
+.hab1 {
+    background-image: url(../img/html2.svg);
+}
+
+.hab2 {
+    background-image: url(../img/css2.svg);
+}
+
+.hab3 {
+    background-image: url(../img/js2.svg);
+}

@@ -1,0 +1,190 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header */
+.barra {
+    width: 100%;
+    background: rgb(252, 252, 252);
+    position: fixed;
+    top: 0;
+    z-index: 1;
+    border-bottom: solid 1px rgb(7, 5, 5);
+    opacity: 80%;
+    padding: 20px;
+}
+
+.barra-conteiner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+nav {
+    width: 50%;
+}
+
+.logo {
+    border-radius: 50%;
+    overflow: visible;
+    margin-left: 30px;
+    margin-top: 3px;
+ }
+
+ nav ul {
+    display: flex;
+    list-style: none;
+    font-family: 'Helvetica';
+    font-size: large;
+    justify-content: space-around;
+    width: 100%;
+    flex-wrap: wrap;
+ }
+ 
+ ul li {
+    margin-right: 50px;
+ }
+
+ ul li a {
+    color: rgb(7, 7, 7);
+    text-decoration: none;
+    display: block;
+    transition: ease-in-out 0.3s;
+ }
+
+ ul li a:hover {
+    color: rgb(11, 56, 179)
+ }
+ 
+ /* Introdução */
+ .inicio {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    background-color: rgb(63, 163, 177);
+ }
+
+ .altura-ajuste {
+    width: 100%;
+ }
+ 
+ .ajustador {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+ }
+
+ .centralizador {
+    max-width: 1000px;
+    margin: 0 auto;
+ }
+ 
+ .introducao {
+    font-family: 'Helvetica';
+    max-width: 800px;
+}
+
+.descricao {
+    grid-area: descricao;
+}
+
+.descricao2 {
+    font-size: 30px;
+    grid-area: descricao;
+}
+
+.nome {
+    font-size: 80px;
+}
+
+.introFoto {
+    width: 300px;
+    grid-area: introFoto;
+}
+
+@keyframes introFotoAnimacao {
+    from {
+        top: -15px;
+    }
+    to {
+        top: 25px;
+    }
+}
+
+.introFoto2 {
+    position: relative;
+    animation: introFotoAnimacao 2.1s infinite alternate-reverse linear;
+}
+
+@media (max-width: 1200px) {
+    .inicio {
+        height: auto;
+    }
+
+    .ajustador {
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: space-around;
+        align-items: center;
+        padding-bottom: 50px;
+    }
+
+    .introFoto {
+        padding: 100px 0;
+    }
+
+    .introducao {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .menu {
+        margin-right: 15px;
+    }
+}
+
+@media (max-width: 950px) {
+    .introFoto {
+        padding: 25px 0;
+    }
+
+    .altura-ajuste {
+        display: flex;
+        justify-content: center;
+    }
+
+    .ajustador {
+        max-width: 300px;
+        display: grid;
+        grid-template-columns: 300px;
+        grid-template-areas: 
+        "introFoto"
+        "introducao";
+        line-height: 35px;
+    }
+
+    .inicio {
+        display: flex;
+        justify-content: center;
+    }
+
+    .introFoto {
+        display: flex;
+        justify-content: center;
+    }
+
+    .barra {
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
