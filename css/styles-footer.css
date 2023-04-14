@@ -35,9 +35,17 @@
     }
 }
 
+@media (max-width: 768px) {
+    .footer-texto {
+        font-size: 20px;
+        text-align: center;
+    }
+}
+
 @media (max-width: 465px) {
     .footer-texto {
         font-size: 15px;
+        text-align: center;
     }
 }
 
