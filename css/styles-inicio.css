@@ -108,15 +108,6 @@ ul li a:hover {
     grid-area: introFoto;
 }
 
-@keyframes introFotoAnimacao {
-    from {
-        top: -15px;
-    }
-    to {
-        top: 25px;
-    }
-}
-
 .introFoto2 {
     position: relative;
     animation: introFotoAnimacao 2.1s infinite alternate-reverse linear;
@@ -128,46 +119,62 @@ ul li a:hover {
 
 @media (max-width: 1200px) {
     .inicio {
-        height: auto;
-    }
-
-    .ajustador {
+        height: 100vh;
         display: flex;
-        flex-direction: column-reverse;
-        justify-content: space-around;
         align-items: center;
-        padding-bottom: 50px;
-    }
-
-    .introFoto {
-        padding: 100px 0;
-    }
-
-    .introducao {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-        text-align: center;
-    }
-
-    .menu {
-        margin-right: 10px;
-    }
-
-    .barra {
-        width: 80%;
+        background-color: rgb(63, 163, 177);
     }
     
-    .barra-conteiner{
-        max-width: 1000px;
+    .altura-ajuste {
+        width: 100%;
     }
-
-    nav ul {
-        font-size: 15px;
+     
+    .ajustador {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    
+    .centralizador {
+        max-width: 1000px;
+        margin: 0 auto;
+    }
+     
+    .introducao {
+        font-family: 'Helvetica';
+        max-width: 741px;
+    }
+    
+    .descricao {
+        grid-area: descricao;
+    }
+    
+    .descricao2 {
+        font-size: 30px;
+        grid-area: descricao;
+    }
+    
+    .nome {
+        font-size: 80px;
+    }
+    
+    .introFoto {
+        width: 300px;
+        grid-area: introFoto;
+    }
+    
+    .introFoto2 {
+        position: relative;
+        animation: introFotoAnimacao 2.1s infinite alternate-reverse linear;
+    }
+    
+    .close-menu {
+        display: none;
     }
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 950px) {
     .introFoto {
         padding: 25px 0;
     }
@@ -301,7 +308,7 @@ ul li a:hover {
 
     .barra .barra-conteiner ul li a {
         font-size: 20px;
-        margin-left: 20px;
+        margin-left: 27px;
         margin-bottom: 20px;
         margin-right: 20px;
     
