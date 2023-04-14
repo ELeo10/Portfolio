@@ -83,13 +83,27 @@
     background-image: url(../img/js2.svg);
 }
 
-@media (max-width: 425px) {
+@media (max-width: 950x) {
     .habilidades-disc {
         display: flex;
         justify-content: center;
         flex-wrap: wrap;
         gap: 37px;
         max-width: 500px;
+    }
+
+    .disc-conteiner {
+        max-width: 200px;
+    }
+}
+
+@media (max-width: 768px) {
+    .habilidades-disc {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 37px;
+        max-width: 768px;
     }
 
     .disc-conteiner {
