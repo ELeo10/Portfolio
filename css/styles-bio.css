@@ -46,3 +46,35 @@ h1 {
     color: black;
     font-family: Helvetica;
 }
+
+@media (max-width: 768px) {
+    .ajustador-2 {
+        max-width: 250px;
+        padding: 70px 0;
+        justify-content: center;
+    }
+
+    .bioFoto {
+        margin-right: 0;
+    }
+
+    h1 {
+        font-size: 35px;
+    }
+
+    .sobre-mim p {
+        font-size: 19px;
+        text-indent: 0;
+    }
+}
+
+@media (max-width: 425px) {
+    .ajustador-2 {
+        max-width: 250px;
+        padding: 70px 30px;
+    }
+
+    .bioFoto {
+        margin-right: 0;
+    }
+}
