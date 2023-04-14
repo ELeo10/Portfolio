@@ -126,7 +126,7 @@ ul li a:hover {
     display: none;
 }
 
-@media (width: 1200px) {
+@media (max-width: 1200px) {
     .inicio {
         height: auto;
     }
