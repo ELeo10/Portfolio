@@ -95,6 +95,10 @@
     .disc-conteiner {
         max-width: 200px;
     }
+    
+    .centralizador-hab {
+        height: auto;
+    }
 }
 
 @media (max-width: 768px) {
@@ -111,7 +115,7 @@
     }
 
     .centralizador-hab {
-        height: 100vh;
+        height: auto;
     }
 }
 
@@ -129,6 +133,6 @@
     }
 
     .centralizador-hab {
-        height: 100vh;
+        height: auto;
     }
 }
