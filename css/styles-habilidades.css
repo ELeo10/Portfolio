@@ -82,3 +82,39 @@
 .hab3 {
     background-image: url(../img/js2.svg);
 }
+
+@media (max-width: 425px) {
+    .habilidades-disc {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 37px;
+        max-width: 500px;
+    }
+
+    .disc-conteiner {
+        max-width: 200px;
+    }
+
+    .centralizador-hab {
+        height: 100vh;
+    }
+}
+
+@media (max-width: 375px) {
+    .habilidades-disc {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 37px;
+        max-width: 500px;
+    }
+
+    .disc-conteiner {
+        max-width: 200px;
+    }
+
+    .centralizador-hab {
+        height: 100vh;
+    }
+}
