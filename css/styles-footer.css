@@ -2,7 +2,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    font-family: Helvetica;
+    font-family: 'Poppins', sans-serif;
     scroll-behavior: smooth;
 }
 
@@ -23,7 +23,7 @@
 
 .footer-texto {
     color: black;
-    font-family: Helvetica;
+    font-family: 'Poppins', sans-serif;
     font-size: 20px;
     padding: 10px 0;
     align-items: center;
