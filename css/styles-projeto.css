@@ -3,7 +3,7 @@
     margin: 0;
     box-sizing: border-box;
     scroll-behavior: smooth;
-    font-family: Helvetica;
+    font-family: 'Poppins', sans-serif;
 }
 
 #projetos {
@@ -18,7 +18,7 @@
     text-align: center;
     padding-bottom: 70px;
     font-size: 45px;
-    font-family: Helvetica;
+    font-family: 'Poppins', sans-serif;
 }
 
 .github {
@@ -63,7 +63,7 @@
 }
 
 .blank div p {
-    font-family: Helvetica;
+    font-family: 'Poppins', sans-serif;
     font-size: 20px;
     color: azure;
 }
