@@ -30,6 +30,10 @@
     display: inline;
 }
 
+.github:hover {
+    color: rgb(12, 105, 117);
+}
+
 .repositorio {
     margin: 0 auto;
     padding-top: 35px;
@@ -39,19 +43,6 @@
     flex-direction: column;
     align-items: center;
     gap: 35px;
-}
-
-.blank {
-    background-color: rgb(117, 171, 224);
-    height: 195px;
-    width: 310px;
-    border-radius: 20px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    cursor: pointer;
-    overflow: hidden;
-    transition: ease-in-out 0.3s;
 }
 
 .projeto1 {
@@ -65,24 +56,99 @@
     align-items: center;
     justify-content: center;
     cursor: pointer; 
+    text-decoration: none;
 }
 
-.blank div {
-    background-color: rgb(32, 48, 83);
-    width: 1000px;
+.projeto2 {
+    background-image: url(../img/login1.png);
+    background-position: center;
+    background-size: cover;
+    height: 195px;
+    width: 310px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.projeto3 {
+    background-image: url(../img/form1.png);
+    background-position: center;
+    background-size: cover;
+    height: 195px;
+    width: 310px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     text-align: center;
-    padding: 5% 0;
-    transform: rotate(-50deg);
+    cursor: pointer;
+    text-decoration: none; 
 }
 
-.blank div p {
-    font-family: 'Poppins', sans-serif;
+.projeto1 p {
+    visibility: hidden;
+    padding: 30px;
     font-size: 20px;
-    color: azure;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    text-indent: 0;
 }
 
-.blank:hover {
-    letter-spacing: 5px;
+.projeto1:hover p {
+    visibility: visible;
+    background-color: rgb(0, 0, 0);
+    width: 100%;
+    height: 100%;
+    opacity: 80%;
+    border-radius: 20px;
+    color: rgb(255, 255, 255);
+    transition: all ease 0.5s;
+}
+
+.projeto2 p {
+    visibility: hidden;
+    padding: 40px;
+    font-size: 20px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    text-indent: 0;
+}
+
+.projeto2:hover p {
+    visibility: visible;
+    background-color: rgb(0, 0, 0);
+    width: 100%;
+    height: 100%;
+    opacity: 80%;
+    border-radius: 20px;
+    color: rgb(255, 255, 255);
+    transition: all ease 0.5s;
+}
+
+.projeto3 p {
+    visibility: hidden;
+    padding: 30px;
+    font-size: 20px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    text-indent: 0;
+}
+
+.projeto3:hover p {
+    visibility: visible;
+    background-color: rgb(0, 0, 0);
+    width: 100%;
+    height: 100%;
+    opacity: 80%;
+    border-radius: 20px;
+    color: rgb(255, 255, 255);
+    transition: all ease 0.5s;
 }
 
 .projetos-itens {
